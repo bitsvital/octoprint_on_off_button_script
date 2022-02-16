@@ -1,0 +1,15 @@
+#! /bin/sh
+
+set -e
+
+cd "$(dirname "$0")/.."
+
+echo "Uninstalling Pi Power Button On Off script!\n"
+echo "Stopping Pi Power Button On Off script\n"
+sudo update-rc.d pi_pwr_button_on_off.sh remove
+sudo /etc/init.d/pi_pwr_button_on_off.sh stop
+sudo rm -rf /usr/local/bin/pi_pwr_button_on_off.py 
+sudo rm -rf /etc/init.d/pi_pwr_button_on_off.sh 
+
+echo "Uninstall Successfull!\n"
+echo "Pi Power Button On Off script has been uninstalled\n"

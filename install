@@ -1,0 +1,21 @@
+#! /bin/sh
+
+set -e
+
+cd "$(dirname "$0")/.."
+
+echo "Installing Pi Power Button On Off Script\n"
+sudo cp pi_pwr_button_on_off.py /usr/local/bin/
+sudo chmod +x /usr/local/bin/pi_pwr_button_on_off.py
+
+echo "Pi Power Button On Off Script starting\n"
+sudo cp pi_pwr_button_on_off.sh /etc/init.d/
+sudo chmod +x /etc/init.d/pi_pwr_button_on_off.sh
+
+sudo update-rc.d pi_pwr_button_on_off.sh defaults
+sudo /etc/init.d/pi_pwr_button_on_off.sh start
+
+echo "Pi Power Button On Off Script has been successfully installed! :)\n"
+echo "Make sure to read all the instructions in the README.md file associated with this script."
+echo "At any point you wish to uninstall Pi Power Button On Off Script just run the uninstall script"
+echo "by typing sudo ./uninstall"
