@@ -10,7 +10,7 @@
   - [About](#about)
   - [Instructions](#instructions)
   - [Software Version History](#software-version-history)
-  - [Future Plans](#future-plans)
+  - [Road Map (Future Plans)](#road-map-future-plans)
   - [Change Log](#change-log)
   - [Code of Conduct](#code-of-conduct)
   - [License](#license)
@@ -33,13 +33,15 @@ Original respository for this software can be found at:
 3. Please and Thank you are not used enough. If requesting a feature request and you use 'please' and 'thank you' your request will send you to the front of the line. Remember when communicating with fellow users that 'please' and 'thank you' are powerful words that should be used more frequentely! 
 ## About
 Raspberry Pi Power On / Power Off Script is  basic script for your Raspberry Pi's that works along side a push button that is wired to your Raspberry Pi. As of 2022-02-15, Raspberry Pi's do not come with an on/off power button. Without a power on/off button, you are left with having to power off the shell two ways. One (1), if you have a GUI desktop installed, you can Restart/Power Off the Raspberry Pi through the GUI. Two (2), at the command line invoke the shutdown procedure `sudo shutdown -now` or `sudo shutdown -h now`. 
+
 ## Instructions
+(Coming)
 
 ## Software Version History
 0.1.0A -> Alpha Release 2022-02-03
 0.2.0B -> Beta Release 2022-02-13
 0.2.1B -> Beta Release 2022-02-15 <strong>(CURRENT VERSION)</strong>
-## Future Plans
+## Road Map (Future Plans)
 1. Add method for controlling (changing color) a RGB LED
 2. Add additional features to the push button
    1. Hold for two seconds ... RGB light turns ...
@@ -50,7 +52,7 @@ Raspberry Pi Power On / Power Off Script is  basic script for your Raspberry Pi'
 (Coming next software update)
 
 ## Code of Conduct
-
+Please see CODE_OF_CONDUCT.md
 ## License
 Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 Full License:[http://creativecommons.org/licenses/by-nc-sa/4.0/](http://creativecommons.org/licenses/by-nc-sa/4.0/)
