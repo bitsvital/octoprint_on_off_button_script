@@ -9,11 +9,11 @@
 
 case "$1" in
   start)
-    echo "Starting Pi Power Button On Off Script"
+    echo "Starting Pi Power Button On Off Script For Octoprint"
     /usr/local/bin/pi_pwr_button_on_off.py &
     ;;
   stop)
-    echo "Stopping Pi Power Button On Off Script"
+    echo "Stopping Pi Power Button On Off Script For Octoprint"
     pkill -f /usr/local/bin/lpi_pwr_button_on_off.py
     ;;
   *)

@@ -1,25 +1,24 @@
-#!/home/pi/oprint/bin/``python
-# ToDo Test SheBang statement with and without Venv environment
+#!/home/pi/oprint/bin/python
 
 #  Copyright ---->
 #  BitsVital LLC. Copyright (c) 2022. All Rights Reserved.
 #  Created by BitsVital LLC. Lead Computer Engineer: David Swanson
-#  Pi Power Button On Off Script
-#  Pi Power Button On Off Script by BitsVital comes with ABSOLUTELY NO WARRANTY!
-#  Use at your own peril/risk!
-#  https://github.com/bitsvital/pi_pwr_button_on_off
+#  Pi Power Button On Off Script For Octoprint
+#  Pi Power Button On Off Script For Octoprint by BitsVital
+#  comes with ABSOLUTELY NO WARRANTY! Use at your own peril/risk!
+#  https://github.com/bitsvital/octoprint_on_off_button_script
 #  This script is licensed under the:
 #  Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 #  Full License: http://creativecommons.org/licenses/by-nc-sa/4.0/
 #  End of Copyright <-----
 
-#  Instructions -> Please read README.md | Please see instruction section.
+#  Instructions -> Please read README.md
 
 import RPi.GPIO as GPIO
 import subprocess
 
 # Sets the board numbering type. Board or BCM. In this script I used board.
-GPIO.setmode(GPIO.Board)
+GPIO.setmode(GPIO.BOARD)
 
 # One of the push button pins must be connected to the Pi's SCL pin for the power on feature to work. 
 # In the script it's set to pin 5. As of 2022-02-15 all current Pi's SCL is pin 5. 
