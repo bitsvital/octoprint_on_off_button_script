@@ -38,7 +38,7 @@ Raspberry Pi Power On / Power Off Script is  basic script for your Raspberry Pi'
 ## Software Version History
 0.1.0A -> Alpha Release 2022-02-03
 0.2.0B -> Beta Release 2022-02-13
-1.0.0 -> Initial Release 2022-02-15 <strong>(CURRENT VERSION)</strong>
+0.2.1B -> Beta Release 2022-02-15 <strong>(CURRENT VERSION)</strong>
 ## Future Plans
 1. Add method for controlling (changing color) a RGB LED
 2. Add additional features to the push button
