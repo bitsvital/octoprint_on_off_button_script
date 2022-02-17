@@ -2,6 +2,7 @@
 
 set -e
 
+echo "IMPORTANT! This script is intended to work with a Raspberry Pi with OctoPrint installed!"
 echo "Installing Pi Power Button On Off Script For OctoPrint\n"
 sudo cp pi_pwr_button_on_off.py /usr/local/bin/
 sudo chmod +x /usr/local/bin/pi_pwr_button_on_off.py

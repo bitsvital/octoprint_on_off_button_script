@@ -4,8 +4,8 @@
 #  BitsVital LLC. Copyright (c) 2022. All Rights Reserved.
 #  Created by BitsVital LLC. Lead Computer Engineer: David Swanson
 #  Pi Power Button On Off Script For Octoprint
-#  Pi Power Button On Off Script For Octoprint by BitsVital
-#  comes with ABSOLUTELY NO WARRANTY! Use at your own peril/risk!
+#  Pi Power Button On Off Script For Octoprint by BitsVital comes
+#  with ABSOLUTELY NO WARRANTY! Use at your own peril/risk!
 #  https://github.com/bitsvital/octoprint_on_off_button_script
 #  This script is licensed under the:
 #  Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
@@ -21,11 +21,8 @@ import subprocess
 GPIO.setmode(GPIO.BOARD)
 
 # One of the push button pins must be connected to the Pi's SCL pin for the power on feature to work. 
-# In the script it's set to pin 5. As of 2022-02-15 all current Pi's SCL is pin 5. 
-# However, it's strongly recommended that you verify that your SCL pin on your Pi is pin 5.
-# There is only one SCL pin per Pi. The other pin of the push button must be connected
-# to any open ground pin. 
-# Pin 5 is set to an input pin.
+# In the script it's set to pin 5. It's strongly recommended that you verify that your SCL pin on your Pi is pin 5.
+# There is only one SCL pin per Pi. The other pin of the push button must be connected to any open ground pin. 
 # Instead of writing a CPU intesive while loop I use the RPi.GPIO 'wait_for_edge' feature.
 # 'wait_for_edge' will detect a rise or fall on the pin and then run the the script saving valuable
 # CPU power. I set the pin to up. It makes no difference if you set the pin to up or down. 
