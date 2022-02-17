@@ -52,7 +52,7 @@ Original repository for this software can be found at:
 3. Please and Thank you are not used enough. If requesting a feature request and you use 'please' and 'thank you', your request will send you to the front of the line. Remember when communicating with fellow users that 'please' and 'thank you' are powerful words that should be used more frequently! 
 
 ## Thingiverse Page
-The Thingiverse page for this project can be found at: [https://www.thingiverse.com/make:1013261](https://www.thingiverse.com/make:1013261)
+The Thingiverse page for this project can be found at: [https://www.thingiverse.com/thing:5250365](https://www.thingiverse.com/thing:5250365)
 
 ## About The Script
 
