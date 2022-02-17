@@ -1,4 +1,4 @@
-#!/home/pi/oprint/bin/python
+#!/home/pi/oprint/bin/python3
 
 #  Copyright ---->
 #  BitsVital LLC. Copyright (c) 2022. All Rights Reserved.

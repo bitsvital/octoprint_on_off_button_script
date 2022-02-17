@@ -157,7 +157,7 @@ Once you have your Raspberry Pi case printed and the push button and LED notific
 3. Clone our GitHub repository
 ```git clone https://github.com/bitsvital/octoprint_on_off_button_script.git```
 4. Change into the new directory
-```cd pi_pwr_button_on_off```
+```cd octoprint_on_off_button_script```
 5. Give the install & uninstall script executive privilege
 ```sudo chmod +x install uninstall```
 6. Install the script
@@ -180,7 +180,7 @@ Once you have your Raspberry Pi case printed and the push button and LED notific
  5. Change back to the home directory
  ```cd /home/pi```
  6. Remove the script directory
- ```rm -Rf pi_pwr_button_on_off```
+ ```rm -Rf octoprint_on_off_button_script```
 
 ## Software Version History
 
