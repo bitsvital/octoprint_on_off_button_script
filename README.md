@@ -1,4 +1,4 @@
-BitsVital and the entire company stand with 🇺🇦 Ukraine!
+BitsVital and our entire company stands with 🇺🇦 Ukraine!!!
 <hr>
 # Raspberry Pi Power On Off Script For Octoprint
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
